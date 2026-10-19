@@ -1,10 +1,10 @@
 ---
 name: ayla-public-release
-description: Prepare, verify and publish an independent Ayla-tools Pi package with beginner-friendly English/Russian READMEs, consistent MOTH artwork, clean public dependencies, and evidence-based compatibility. Use when explicitly asked to create or release an Ayla-tools public repository; never publishes merely because this skill is loaded.
+description: Prepare, verify and publish an independent Ayla-tools Pi package with beginner-friendly English/Russian READMEs, reviewed artwork, clean public dependencies, and evidence-based compatibility. Use when explicitly asked to create or release an Ayla-tools public repository; never publishes merely because this skill is loaded.
 license: MIT
 ---
 
-# Release an Ayla tool, not somebody's personal setup
+# Release an Ayla tool
 
 ## Contract and boundaries
 
@@ -17,7 +17,8 @@ Use an ordinary Pi package and the public SDK. No family-specific runtime framew
 - `package.json`: unique name, real Pi resource entrypoints, supported Node engine, precise runtime dependencies and a package `files` allowlist. Pi-provided SDK/AI/TUI/agent/typebox packages belong in host peers according to the exact host documentation; wildcard peers do not certify future compatibility.
 - `README.md` in English and equal `README.ru.md` in Russian, mutually linked near the top. Show the actual feature, terminal install command, `/reload`, first usable example, optional prerequisites, configuration, security/data flow, limitations, tested matrix, verification and uninstall. Distinguish terminal commands from Pi slash commands.
 - Correct license and attribution. A maintained fork must credit its upstream author and explain the fork delta. Do not invent rights to third-party assets or relicense incompatible code.
-- Repo-specific `assets/banner.png` using canonical adult MOTH: smoky-lavender bob, charcoal cat ears, amber eyes, cozy charcoal cardigan and small lavender ribbon. Midnight ink/lavender/amber, refined editorial anime, elegant ivory typography. Upload only explicitly authorized reference images. Use GPT Image when the user requests image generation; no silent paid-provider fallback. Never publish the owner's original favorite-character reference sheet.
+- `assets/banner.png` if artwork is requested. Upload only explicitly authorized references, preserve the agreed visual style, and review the image before publishing. Use GPT Image when requested; no silent paid-provider fallback. Keep private reference images out of the repository.
+- Write the README for someone using the tool. Remove slogans, mascot biographies, generation stories, private deployment details and internal audit reports. Keep working commands, examples, requirements, relevant privacy warnings and limitations. Summarize verification briefly; do not turn the README into a release log.
 - Meaningful tests and CI for claimed support. A green badge is not a substitute for a real installation and feature check.
 
 ## Verification ladder
