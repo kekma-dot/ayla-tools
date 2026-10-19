@@ -75,6 +75,10 @@ Replace the final name with the package you installed, then `/reload`. Use `pi c
 - GitHub publication is not npm publication or Pi-gallery indexing. Current installation commands intentionally use Git.
 - We preserve upstream licenses and attribution. Ayla Web is a maintained fork of [Nico Bailon's pi-web-access](https://github.com/nicobailon/pi-web-access), not a claim that all of its code originated here.
 
+## For extension authors
+
+[Ayla Contract](https://github.com/kekma-dot/ayla-tools-contract) is the optional, dependency-free ESM signal library behind future cooperating tools. It is **not a Pi extension** and renders nothing on its own. Its README shows a verified public Git dependency install and a small API example; ordinary users do not need to install it separately.
+
 ## Identity and contribution
 
 Keep tools small, useful and independently replaceable. Match the MOTH midnight-ink / lavender / amber family style while giving each feature its own scene. Banners were created using **GPT Image** from the owner-selected original MOTH design; personal reference sheets and accounts are not included. AI-assisted artwork has no exclusivity or suitability guarantee.
