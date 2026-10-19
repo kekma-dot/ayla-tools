@@ -9,6 +9,7 @@ Extensions and skills for [Pi](https://pi.dev). Install each package separately.
 | Package | What it does |
 |---|---|
 | [Compact](https://github.com/kekma-dot/ayla-tools-compact) | Compact terminal output for tool calls. |
+| [UI](https://github.com/kekma-dot/ayla-tools-ui) | Framed editor, compact footer, model picker and local session panel. Beta. |
 | [Web](https://github.com/kekma-dot/ayla-tools-web) | Web search, page retrieval and source checking. |
 | [Browse](https://github.com/kekma-dot/ayla-tools-browse) | Open, find and follow links in document snapshots. Requires Web. |
 | [Voice](https://github.com/kekma-dot/ayla-tools-voice) | Talk to your Pi session through Codex Live. Experimental. |

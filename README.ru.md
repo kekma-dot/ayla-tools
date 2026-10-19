@@ -9,6 +9,7 @@
 | Пакет | Что делает |
 |---|---|
 | [Compact](https://github.com/kekma-dot/ayla-tools-compact) | Компактный вывод вызовов инструментов в терминале. |
+| [UI](https://github.com/kekma-dot/ayla-tools-ui) | Редактор с рамкой, компактный футер, выбор модели и локальная панель сессии. Бета. |
 | [Web](https://github.com/kekma-dot/ayla-tools-web) | Поиск в интернете, загрузка страниц и проверка источников. |
 | [Browse](https://github.com/kekma-dot/ayla-tools-browse) | Открытие документов, поиск по тексту и переходы по ссылкам в снимках. Требует Web. |
 | [Voice](https://github.com/kekma-dot/ayla-tools-voice) | Разговор с сессией Pi через Codex Live. Экспериментальное расширение. |
